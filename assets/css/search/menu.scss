@@ -1,0 +1,64 @@
+.search-panel{
+  width:1200px;
+  margin:0 auto;
+}
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.menu-panel{
+  height:475px;
+  background: linear-gradient(#28BFAC,#30B0B6);
+  position:relative;
+  .detail-Container{
+    width: 400px;
+    height: 416px;
+    position:absolute;
+    top:60px;
+    left:249px;
+    background:#fff;
+  }
+}
+.m-list{
+  background-color: rgb(190, 164, 116);
+  background-image: linear-gradient(to right, rgb(194, 176, 142) 3%, rgb(190, 164, 116) 100%);
+  border-radius:4px;
+  width:1190px;
+  height:44px;
+ dl{
+   display:flex;
+   flex-direction: row;
+   dt{
+     font: 18px MFShangHei-Regular!important;
+     padding:10px 8px;
+   }
+   dd{
+     padding:14px 8px;
+     font-size:12px;
+     position:relative;
+     &:hover,&.active{
+       &:after{
+         border-left:5px solid transparent;
+         border-right:5px solid transparent;
+         border-bottom:7px solid #fff;
+         width:2px;
+         height:0;
+         content:"";
+         display:block;
+         position:absolute;
+         bottom:0;
+         left:26px;
+       }
+     }
+   }
+ }
+  dl>dd:nth-child(2){
+   &:hover,&.active{
+     &:after{
+       left:14px;
+     }
+   }
+  }
+
+}
