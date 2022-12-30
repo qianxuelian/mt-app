@@ -26,19 +26,19 @@
     "koa-router": "^7.4.0",
     "mongoose": "^5.4.0",
     "nodemailer": "^4.7.0",
-    "nuxt": "^1.4.2",
+    "nuxt": "^3.0.0",
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
-    "css-loader": "^1.0.1",
+    "css-loader": "^6.7.3",
     "eslint": "^5.0.1",
-    "eslint-loader": "^2.0.0",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-vue": "^4.0.0",
-    "file-loader": "^2.0.0",
+    "file-loader": "^6.2.0",
     "node-sass": "^4.11.0",
     "nodemon": "^1.11.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1"
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1"
   }
 }
